@@ -21,7 +21,7 @@
                                 <state key="normal" title="Log In"/>
                                 <connections>
                                     <action selector="logInPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="fA5-Lv-2rs"/>
-                                    <segue destination="6wF-LH-ygi" kind="presentation" modalPresentationStyle="fullScreen" id="4AQ-zC-FCK"/>
+                                    <segue destination="6wF-LH-ygi" kind="presentation" identifier="logIn" modalPresentationStyle="fullScreen" id="4AQ-zC-FCK"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7DU-3s-xug">
